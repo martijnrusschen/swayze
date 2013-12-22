@@ -1,0 +1,8 @@
+<header class="single-header">
+
+	<a href="/" title="Home"><img src="{{#if @blog.logo}}{{@blog.logo}}{{else}}/images/logo.png{{/if}}" title="{{@blog.title}}" /></a>
+	{{#if @blog.title}}<h1><a href="/" title="{{@blog.title}}">{{@blog.title}}</a></h1>{{/if}}
+
+	{{> pagination}}
+
+</header>
